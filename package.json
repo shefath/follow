@@ -9,7 +9,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy:firebase": "ng build --prod && firebase deploy"
+    "deploy:firebase": "ng build --prod && firebase deploy",
+    "deploy:gh": "ng build --prod --base-url='https://shefath.github.io/follow/"
   },
   "private": true,
   "dependencies": {
